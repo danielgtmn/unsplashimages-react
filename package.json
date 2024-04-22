@@ -1,0 +1,50 @@
+{
+  "name": "@danielgietmann/unsplashfetcher",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Unsplash Image Fetcher is a Node.js package designed for fetching and loading themed, high-resolution images from Unsplash. Ideal for applications needing dynamic, topical visual content.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "Unsplash",
+    "images",
+    "image loader",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "theme",
+    "API",
+    "fetch",
+    "Unsplash API",
+    "photos",
+    "photography",
+    "image fetcher"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielGietmann/cookiebot-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielGietmann/cookiebot-react/issues"
+  },
+  "author": "Daniel Gietmann <hello@danielgietmann.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/react": "^18.2.64",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
