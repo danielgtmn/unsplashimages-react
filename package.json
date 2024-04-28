@@ -15,10 +15,8 @@
     "Unsplash",
     "images",
     "image loader",
-    "JavaScript",
     "React",
     "TypeScript",
-    "theme",
     "API",
     "fetch",
     "Unsplash API",
@@ -28,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanielGietmann/cookiebot-react.git"
+    "url": "https://github.com/DanielGietmann/unsplashimages-react.git"
   },
   "bugs": {
-    "url": "https://github.com/DanielGietmann/cookiebot-react/issues"
+    "url": "https://github.com/DanielGietmann/unsplashimages-react/issues"
   },
   "author": "Daniel Gietmann <hello@danielgietmann.de>",
   "license": "MIT",
